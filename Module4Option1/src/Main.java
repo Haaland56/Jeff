@@ -15,7 +15,9 @@ public class Main {
 		double totalBeforeInterest;
 		double min = Double.MAX_VALUE;
 		double max = Double.MIN_VALUE;
+		double interest;
 		int i = 0;
+		
 
 		// declaring constants
 		final double RATE = 0.2;
@@ -40,6 +42,7 @@ public class Main {
 		totalBeforeInterest = sum;
 		totalAfterInterest = sum + (sum * RATE);
 		average = sum / i;
+		interest=sum*RATE;
 
 		// prints results
 		System.out.println("\nThe total before interest is: " + totalBeforeInterest);
@@ -47,6 +50,7 @@ public class Main {
 		System.out.println("The average is: " + average);
 		System.out.println("The maximum is: " + max);
 		System.out.println("The minimum is: " + min);
+		System.out.println("Interest on total at 20% is: "+interest);
 
 		// resource leak closure
 		input.close();
