@@ -1,0 +1,5 @@
+The car make is: Toyota
+The car model is: Corolla
+The car color is: Black
+The car year is: 2025
+The car mileage is: 5000
